@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #242A2C;
+}
+
+.logo {
+  font-family: 'DM Serif Display', serif;
+  color: #000000;
+}
+
+.nav-link {
+  color: #242A2C;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #FF642F;
+  text-decoration: none;
+}
+
+.social-icons i {
+  font-size: 18px;
+  color: #242A2C;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #FF642F;
+}
