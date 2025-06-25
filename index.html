@@ -6,16 +6,21 @@
     <title>Foodieland</title>
 
     <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-<!-- ✅ Font Awesome via CDN -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- ✅ Font Awesome via CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
     <!-- ✅ HEADER -->
     <header class="border-bottom py-3">
       <div class="container d-flex justify-content-between align-items-center">
-        
         <!-- Logo -->
         <div class="logo fs-3 fw-bold">
           Foodieland<span class="text-danger">.</span>
@@ -38,104 +43,407 @@
           <a href="#"><i class="fab fa-twitter"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
-
       </div>
     </header>
 
-<!-- ✅ SECTION RECETTE -->
-<section class="recipe-highlight my-5">
-  <div class="container">
-    <div class="row align-items-stretch overflow-hidden shadow-sm rounded-4" style="background-color: #E7FAFE; min-height: 400px;">
-
-      <!-- Partie gauche -->
-      <div class="col-md-6 p-5 d-flex flex-column justify-content-between">
-        <div>
-          <!-- Badge -->
-          <div class="d-inline-flex align-items-center gap-2 bg-white text-dark px-3 py-2 rounded-pill mb-3" style="font-size: 14px;">
-            <img src="/src/assets/bouton-Recipes.png" alt="icon" style="height: 20px; width: 20px;" />
-            <span>Hot Recipes</span>
-          </div>
-
-          <!-- Titre -->
-          <h2 class="fw-bold mb-3">Spicy delicious chicken wings</h2>
-
-          <!-- Description -->
-          <p class="text-muted mb-4">
-            Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim
-          </p>
-
-          <!-- Boutons info -->
-          <div class="d-flex gap-3 mb-4">
-            <button class="btn btn-info-light text-dark rounded-pill px-3 py-2 d-flex align-items-center gap-2">
-              <i class="fas fa-clock"></i> 30 minutes
-            </button>
-            <button class="btn btn-info-light text-dark rounded-pill px-3 py-2 d-flex align-items-center gap-2">
-              <i class="fas fa-utensils"></i> Chicken
-            </button>
-          </div>
-        </div>
-
-        <!-- Auteur + Bouton noir -->
-        <div class="d-flex justify-content-between align-items-center mt-3">
-          <div class="d-flex align-items-center gap-3">
-            <img src="/src/assets/john-smith.png" alt="John Smith" class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;" />
+    <!-- ✅ SECTION RECETTE -->
+    <section class="recipe-highlight my-5">
+      <div class="container">
+        <div
+          class="row align-items-stretch overflow-hidden shadow-sm rounded-4"
+          style="background-color: #e7fafe; min-height: 400px"
+        >
+          <!-- Partie gauche -->
+          <div class="col-md-6 p-5 d-flex flex-column justify-content-between">
             <div>
-              <div class="fw-semibold">John Smith</div>
-              <div class="text-muted" style="font-size: 14px;">15 March 2022</div>
+              <!-- Badge -->
+              <div
+                class="d-inline-flex align-items-center gap-2 bg-white text-dark px-3 py-2 rounded-pill mb-3"
+                style="font-size: 14px"
+              >
+                <img
+                  src="/src/assets/bouton-Recipes.png"
+                  alt="icon"
+                  style="height: 20px; width: 20px"
+                />
+                <span>Hot Recipes</span>
+              </div>
+
+              <!-- Titre -->
+              <h2 class="fw-bold mb-3">Spicy delicious chicken wings</h2>
+
+              <!-- Description -->
+              <p class="text-muted mb-4">
+                Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqut enim
+                ad minim
+              </p>
+
+              <!-- Boutons info -->
+              <div class="d-flex gap-3 mb-4">
+                <button
+                  class="btn btn-info-light text-dark rounded-pill px-3 py-2 d-flex align-items-center gap-2"
+                >
+                  <i class="bi bi-alarm"></i> 30 minutes
+                </button>
+                <button
+                  class="btn btn-info-light text-dark rounded-pill px-3 py-2 d-flex align-items-center gap-2"
+                >
+                  <i class="fas fa-utensils"></i> Chicken
+                </button>
+              </div>
+            </div>
+
+            <!-- Auteur + Bouton noir -->
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  src="/src/assets/john-smith.png"
+                  alt="John Smith"
+                  class="rounded-circle"
+                  style="width: 50px; height: 50px; object-fit: cover"
+                />
+                <div>
+                  <div class="fw-semibold">John Smith</div>
+                  <div class="text-muted" style="font-size: 14px">
+                    15 March 2022
+                  </div>
+                </div>
+              </div>
+
+              <a
+                href="#"
+                class="btn btn-dark rounded-pill d-flex align-items-center gap-2 px-4 py-2"
+              >
+                View Recipes <i class="fas fa-arrow-right"></i>
+              </a>
             </div>
           </div>
 
-          <a href="#" class="btn btn-dark rounded-pill d-flex align-items-center gap-2 px-4 py-2">
-            View Recipes <i class="fas fa-arrow-right"></i>
-          </a>
+          <!-- Image droite (bord à bord à l'intérieur du container) -->
+          <div class="col-md-6 p-0">
+            <img
+              src="/src/assets/chiken.jpg"
+              alt="Chicken Dish"
+              class="w-100 h-100 rounded-end"
+              style="object-fit: cover; object-position: 90% center"
+            />
+          </div>
         </div>
       </div>
+    </section>
 
-      <!-- Image droite (bord à bord à l'intérieur du container) -->
-      <div class="col-md-6 p-0">
-<img src="/src/assets/chiken.jpg" alt="Chicken Dish" class="w-100 h-100 rounded-end" style="object-fit: cover; object-position: 90% center;" />
+    <section class="categories-section">
+      <div class="categories-header">
+        <h2 class="categories-title">Categories</h2>
+        <button class="view-all-btn">View All Categories</button>
       </div>
 
-    </div>
-  </div>
-</section>
+      <div class="categories-container">
+        <div class="category-card breakfast">
+          <img src="/src/assets/breakfast.png" alt="Breakfast" />
+          <p>Breakfast</p>
+        </div>
+        <div class="category-card vegan">
+          <img src="/src/assets/vegan.png" alt="Vegan" />
+          <p>Vegan</p>
+        </div>
+        <div class="category-card meat">
+          <img src="/src/assets/meat.png" alt="Meat" />
+          <p>Meat</p>
+        </div>
+        <div class="category-card dessert">
+          <img src="/src/assets/dessert.png" alt="Dessert" />
+          <p>Dessert</p>
+        </div>
+        <div class="category-card lunch">
+          <img src="/src/assets/lunch.png" alt="Lunch" />
+          <p>Lunch</p>
+        </div>
+        <div class="category-card chocolate">
+          <img src="/src/assets/chocolate.png" alt="Chocolate" />
+          <p>Chocolate</p>
+        </div>
+      </div>
+    </section>
 
-<section class="categories-section">
-  <div class="categories-header">
-    <h2 class="categories-title">Categories</h2>
-    <button class="view-all-btn">View All Categories</button>
-  </div>
+    <section class="recipes-section mx-auto">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold mb-3">Simple and tasty recipes</h2>
+        <p class="text-muted">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad
+          minim
+        </p>
+      </div>
 
-  <div class="categories-container">
-    <div class="category-card breakfast">
-      <img src="/src/assets/breakfast.png" alt="Breakfast" />
-      <p>Breakfast</p>
-    </div>
-    <div class="category-card vegan">
-      <img src="/src/assets/vegan.png" alt="Vegan" />
-      <p>Vegan</p>
-    </div>
-    <div class="category-card meat">
-      <img src="/src/assets/meat.png" alt="Meat" />
-      <p>Meat</p>
-    </div>
-    <div class="category-card dessert">
-      <img src="/src/assets/dessert.png" alt="Dessert" />
-      <p>Dessert</p>
-    </div>
-    <div class="category-card lunch">
-      <img src="/src/assets/lunch.png" alt="Lunch" />
-      <p>Lunch</p>
-    </div>
-    <div class="category-card chocolate">
-      <img src="/src/assets/chocolate.png" alt="Chocolate" />
-      <p>Chocolate</p>
-    </div>
-  </div>
-</section>
+      <div class="recipes-grid d-flex justify-content-between flex-wrap gap-4">
+        <!-- CARD 1 -->
+        <div class="recipe-card p-3 rounded-4">
+          <div class="recipe-image mx-auto mb-3 position-relative">
+            <img
+              src="/src/assets/beef-cheeseburger.png"
+              alt="Beef Cheeseburger"
+              class="img-fluid rounded-4"
+            />
+            <button
+              class="like-button"
+              onclick="this.classList.toggle('active')"
+            >
+              <i class="bi bi-heart-fill"></i>
+            </button>
+          </div>
+          <h3 class="recipe-title mb-3">
+            Big and Juicy Wagyu Beef Cheeseburger
+          </h3>
+          <div class="d-flex align-items-center gap-4 px-2 text-muted">
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-alarm"></i>
+              <span>30 Minutes</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fas fa-utensils"></i>
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
 
+        <!-- CARD 2 -->
+        <div class="recipe-card p-3 rounded-4">
+          <div class="recipe-image mx-auto mb-3 position-relative">
+            <img
+              src="/src/assets/salmon.png"
+              alt="Salmon"
+              class="img-fluid rounded-4"
+            />
+            <button
+              class="like-button"
+              onclick="this.classList.toggle('active')"
+            >
+              <i class="bi bi-heart-fill"></i>
+            </button>
+          </div>
+          <h3 class="recipe-title mb-3">
+            Fresh Lime Roasted Salmon with Ginger Sauce
+          </h3>
+          <div class="d-flex align-items-center gap-4 px-2 text-muted">
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-alarm"></i>
+              <span>30 Minutes</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fas fa-utensils"></i>
+              <span>Fish</span>
+            </div>
+          </div>
+        </div>
 
+        <!-- CARD 3 -->
+        <div class="recipe-card p-3 rounded-4">
+          <div class="recipe-image mx-auto mb-3 position-relative">
+            <img
+              src="/src/assets/Pancake.png"
+              alt="Pancake"
+              class="img-fluid rounded-4"
+            />
+            <button
+              class="like-button"
+              onclick="this.classList.toggle('active')"
+            >
+              <i class="bi bi-heart-fill"></i>
+            </button>
+          </div>
+          <h3 class="recipe-title mb-3">
+            Strawberry Oatmeal Pancake with Honey Syrup
+          </h3>
+          <div class="d-flex align-items-center gap-4 px-2 text-muted">
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-alarm"></i>
+              <span>30 Minutes</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fas fa-utensils"></i>
+              <span>Breakfast</span>
+            </div>
+          </div>
+        </div>
 
+        <!-- CARD 4 -->
+        <div class="recipe-card p-3 rounded-4">
+          <div class="recipe-image mx-auto mb-3 position-relative">
+            <img
+              src="/src/assets/salad.png"
+              alt="Beef Cheeseburger"
+              class="img-fluid rounded-4"
+            />
+            <button
+              class="like-button"
+              onclick="this.classList.toggle('active')"
+            >
+              <i class="bi bi-heart-fill"></i>
+            </button>
+          </div>
+          <h3 class="recipe-title mb-3">
+            Fresh and Healthy Mixed Mayonnaise Salad
+          </h3>
+          <div class="d-flex align-items-center gap-4 px-2 text-muted">
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-alarm"></i>
+              <span>30 Minutes</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fas fa-utensils"></i>
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="recipe-card p-3 rounded-4">
+          <div class="recipe-image mx-auto mb-3 position-relative">
+            <img
+              src="/src/assets/Meatballs.png"
+              alt="Salmon"
+              class="img-fluid rounded-4"
+            />
+            <button
+              class="like-button"
+              onclick="this.classList.toggle('active')"
+            >
+              <i class="bi bi-heart-fill"></i>
+            </button>
+          </div>
+          <h3 class="recipe-title mb-3">Chicken Meatballs with Cream Cheese</h3>
+          <div class="d-flex align-items-center gap-4 px-2 text-muted">
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-alarm"></i>
+              <span>30 Minutes</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fas fa-utensils"></i>
+              <span>Fish</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="recipe-card p-3 rounded-4">
+          <div class="recipe-image mx-auto mb-3 position-relative">
+            <img
+              src="/src/assets/healthy.png"
+              alt="Pancake"
+              class="img-fluid rounded-4"
+            />
+            <button
+              class="like-button"
+              onclick="this.classList.toggle('active')"
+            >
+              <i class="bi bi-heart-fill"></i>
+            </button>
+          </div>
+          <h3 class="recipe-title mb-3">Don’t forget to eat healthy food</h3>
+          <div class="d-flex align-items-center gap-4 px-2 text-muted">
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-alarm"></i>
+              <span>30 Minutes</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fas fa-utensils"></i>
+              <span>Breakfast</span>
+            </div>
+          </div>
+        </div>
+        <!-- CARD 7 -->
+        <div class="recipe-card p-3 rounded-4">
+          <div class="recipe-image mx-auto mb-3 position-relative">
+            <img
+              src="/src/assets/fruity.png"
+              alt="Beef Cheeseburger"
+              class="img-fluid rounded-4"
+            />
+            <button
+              class="like-button"
+              onclick="this.classList.toggle('active')"
+            >
+              <i class="bi bi-heart-fill"></i>
+            </button>
+          </div>
+          <h3 class="recipe-title mb-3">
+            Fruity Pancake with Orange & Blueberry
+          </h3>
+          <div class="d-flex align-items-center gap-4 px-2 text-muted">
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-alarm"></i>
+              <span>30 Minutes</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fas fa-utensils"></i>
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 8 -->
+        <div class="recipe-card p-3 rounded-4">
+          <div class="recipe-image mx-auto mb-3 position-relative">
+            <img
+              src="/src/assets/rice.png"
+              alt="Salmon"
+              class="img-fluid rounded-4"
+            />
+            <button
+              class="like-button"
+              onclick="this.classList.toggle('active')"
+            >
+              <i class="bi bi-heart-fill"></i>
+            </button>
+          </div>
+          <h3 class="recipe-title mb-3">
+            The Best Easy One Pot Chicken and Rice
+          </h3>
+          <div class="d-flex align-items-center gap-4 px-2 text-muted">
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-alarm"></i>
+              <span>30 Minutes</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fas fa-utensils"></i>
+              <span>Fish</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 9 -->
+        <div class="recipe-card p-3 rounded-4">
+          <div class="recipe-image mx-auto mb-3 position-relative">
+            <img
+              src="/src/assets/pasta.png"
+              alt="Pancake"
+              class="img-fluid rounded-4"
+            />
+            <button
+              class="like-button"
+              onclick="this.classList.toggle('active')"
+            >
+              <i class="bi bi-heart-fill"></i>
+            </button>
+          </div>
+          <h3 class="recipe-title mb-3">
+            The Creamiest Creamy Chicken and Bacon Pasta
+          </h3>
+          <div class="d-flex align-items-center gap-4 px-2 text-muted">
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-alarm"></i>
+              <span>30 Minutes</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fas fa-utensils"></i>
+              <span>Breakfast</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script type="module" src="/src/js/main.js"></script>
   </body>

@@ -172,3 +172,82 @@ body {
 .lunch, .chocolate {
   background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, #0000001A 100%);
 }
+
+.recipes-section {
+  max-width: 1280px;
+  margin: 100px auto;
+  padding: 0 50px; /* marge latérale à gauche/droite */
+}
+
+.recipes-section .text-center {
+  padding-bottom: 70px;
+  padding-top: 30px;
+}
+
+.recipes-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.recipe-card {
+  width: 360px;
+  height: 434px;
+  background: linear-gradient(to bottom, rgba(231, 249, 253, 0), #E7F9FD);
+  border-radius: 80px;
+  transition: transform 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-10px);
+}
+
+.recipe-image {
+  width: 328px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.recipe-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.recipe-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.04em;
+  color: #000000;
+  padding: 0 10px;
+}
+
+.like-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 10px 0px #FF636333;
+  color: #B0B0B0; /* gris par défaut */
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.like-button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.like-button.active {
+  color: #FF6363; /* rouge quand activé */
+}
