@@ -1,8 +1,9 @@
+/* ✅ Par défaut, tout le site utilise Inter */
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
   color: #242A2C;
+  margin: 0;
 }
 
 .logo {
@@ -30,4 +31,31 @@ body {
 
 .social-icons i:hover {
   color: #FF642F;
+}
+
+/* ✅ Section Recette */
+.recipe-highlight h2 {
+  font-size: 64px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* ✅ Boutons info */
+.btn-info-light {
+  background-color: #0000000D;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-info-light:hover {
+  background-color: #d6d6d6;
+  transform: translateY(-2px);
+}
+
+/* ✅ Bouton noir effet hover */
+.btn-dark:hover {
+  background-color: #333333;
+  transform: translateY(-2px);
+}
+
+.btn i {
+  font-size: 14px;
 }
