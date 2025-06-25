@@ -17,8 +17,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
   </head>
   <body>
     <!-- ✅ HEADER -->
@@ -478,122 +480,289 @@
       </div>
     </section>
 
-   <section class="instagram-section">
-  <div class="instagram-header text-center">
-    <h2>
-      Check out <span class="highlight">@foodieland</span> on Instagram
-    </h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad
-      minim
+    <section class="instagram-section">
+      <div class="instagram-header text-center">
+        <h2>
+          Check out <span class="highlight">@foodieland</span> on Instagram
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad
+          minim
+        </p>
+      </div>
+
+      <div class="instagram-grid">
+        <!-- Post 1 -->
+        <div class="instagram-card">
+          <div class="insta-header">
+            <div class="insta-profile-pic">
+              <img src="/src/assets/logo.png" alt="Instagram logo" />
+            </div>
+            <div class="insta-profile-info">
+              <span class="username">foodieland</span>
+              <span class="location">Tokyo, Japan</span>
+            </div>
+          </div>
+          <div class="insta-image">
+            <img src="/src/assets/insta1.png" alt="Instagram post 1" />
+          </div>
+          <div class="insta-footer">
+            <div class="insta-actions">❤️ 44,888</div>
+            <div class="insta-caption">
+              <strong>foodieland</strong> Fresh, vibrant & full of flavor 🥗
+            </div>
+            <div class="insta-date">June 24</div>
+          </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="instagram-card">
+          <div class="insta-header">
+            <div class="insta-profile-pic">
+              <img src="/src/assets/logo.png" alt="Instagram logo" />
+            </div>
+            <div class="insta-profile-info">
+              <span class="username">foodieland</span>
+              <span class="location">Los Angeles, CA</span>
+            </div>
+          </div>
+          <div class="insta-image">
+            <img src="/src/assets/insta2.png" alt="Instagram post 2" />
+          </div>
+          <div class="insta-footer">
+            <div class="insta-actions">❤️ 52,120</div>
+            <div class="insta-caption">
+              <strong>foodieland</strong> Meat lover's dream 😋
+            </div>
+            <div class="insta-date">June 22</div>
+          </div>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="instagram-card">
+          <div class="insta-header">
+            <div class="insta-profile-pic">
+              <img src="/src/assets/logo.png" alt="Instagram logo" />
+            </div>
+            <div class="insta-profile-info">
+              <span class="username">foodieland</span>
+              <span class="location">New York, NY</span>
+            </div>
+          </div>
+          <div class="insta-image">
+            <img src="/src/assets/insta3.png" alt="Instagram post 3" />
+          </div>
+          <div class="insta-footer">
+            <div class="insta-actions">❤️ 61,003</div>
+            <div class="insta-caption">
+              <strong>foodieland</strong> Vegan vibes only 🌱
+            </div>
+            <div class="insta-date">June 20</div>
+          </div>
+        </div>
+
+        <!-- Post 4 -->
+        <div class="instagram-card">
+          <div class="insta-header">
+            <div class="insta-profile-pic">
+              <img src="/src/assets/logo.png" alt="Instagram logo" />
+            </div>
+            <div class="insta-profile-info">
+              <span class="username">foodieland</span>
+              <span class="location">Paris, France</span>
+            </div>
+          </div>
+          <div class="insta-image">
+            <img src="/src/assets/insta4.png" alt="Instagram post 4" />
+          </div>
+          <div class="insta-footer">
+            <div class="insta-actions">❤️ 39,827</div>
+            <div class="insta-caption">
+              <strong>foodieland</strong> Croissants & coffee 🥐☕
+            </div>
+            <div class="insta-date">June 18</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BOUTON INSTAGRAM -->
+      <div class="text-center mt-5">
+        <a
+          href="https://www.instagram.com/foodielandla/"
+          target="_blank"
+          class="btn-insta"
+        >
+          Visit Our Instagram
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="recipes-section">
+  <div class="d-flex justify-content-between align-items-start mb-5 flex-wrap">
+    <h2 class="recipes-title-v2">Try this delicious recipe<br>to make your day</h2>
+    <p class="recipes-desc-v2">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua enim ad minim
     </p>
   </div>
 
-  <div class="instagram-grid">
-    <!-- Post 1 -->
-    <div class="instagram-card">
-      <div class="insta-header">
-        <div class="insta-profile-pic">
-          <img src="/src/assets/logo.png" alt="Instagram logo" />
-        </div>
-        <div class="insta-profile-info">
-          <span class="username">foodieland</span>
-          <span class="location">Tokyo, Japan</span>
-        </div>
+  <div class="recipes-grid-v2 d-flex flex-wrap justify-content-between gap-4">
+    <!-- CARD 1 -->
+    <div class="recipe-card-v2 p-3 rounded-4">
+      <div class="recipe-image mx-auto mb-3 position-relative">
+        <img src="/src/assets/delicious1.png" alt="salad" class="img-fluid rounded-4" />
+        <button class="like-button" onclick="this.classList.toggle('active')">
+          <i class="bi bi-heart-fill"></i>
+        </button>
       </div>
-      <div class="insta-image">
-        <img src="/src/assets/insta1.png" alt="Instagram post 1" />
-      </div>
-      <div class="insta-footer">
-        <div class="insta-actions">❤️ 44,888</div>
-        <div class="insta-caption">
-          <strong>foodieland</strong> Fresh, vibrant & full of flavor 🥗
+      <h3 class="recipe-title mb-3">Mixed Tropical Fruit Salad with Superfood Boosts </h3>
+      <div class="d-flex align-items-center gap-4 px-2 text-muted">
+        <div class="d-flex align-items-center gap-2">
+          <i class="bi bi-alarm"></i><span>30 Minutes</span>
         </div>
-        <div class="insta-date">June 24</div>
+        <div class="d-flex align-items-center gap-2">
+          <i class="fas fa-utensils"></i><span>Healthy</span>
+        </div>
       </div>
     </div>
 
-    <!-- Post 2 -->
-    <div class="instagram-card">
-      <div class="insta-header">
-        <div class="insta-profile-pic">
-          <img src="/src/assets/logo.png" alt="Instagram logo" />
-        </div>
-        <div class="insta-profile-info">
-          <span class="username">foodieland</span>
-          <span class="location">Los Angeles, CA</span>
-        </div>
+    <!-- CARD 2 -->
+    <div class="recipe-card-v2 p-3 rounded-4">
+      <div class="recipe-image mx-auto mb-3 position-relative">
+        <img src="/src/assets/delicious2.png" alt="Salmon" class="img-fluid rounded-4" />
+        <button class="like-button" onclick="this.classList.toggle('active')">
+          <i class="bi bi-heart-fill"></i>
+        </button>
       </div>
-      <div class="insta-image">
-        <img src="/src/assets/insta2.png" alt="Instagram post 2" />
-      </div>
-      <div class="insta-footer">
-        <div class="insta-actions">❤️ 52,120</div>
-        <div class="insta-caption">
-          <strong>foodieland</strong> Meat lover's dream 😋
+      <h3 class="recipe-title mb-3">Big and Juicy Wagyu Beef Cheeseburger</h3>
+      <div class="d-flex align-items-center gap-4 px-2 text-muted">
+        <div class="d-flex align-items-center gap-2">
+          <i class="bi bi-alarm"></i><span>30 Minutes</span>
         </div>
-        <div class="insta-date">June 22</div>
+        <div class="d-flex align-items-center gap-2">
+          <i class="fas fa-utensils"></i><span>Western</span>
+        </div>
       </div>
     </div>
 
-    <!-- Post 3 -->
-    <div class="instagram-card">
-      <div class="insta-header">
-        <div class="insta-profile-pic">
-          <img src="/src/assets/logo.png" alt="Instagram logo" />
-        </div>
-        <div class="insta-profile-info">
-          <span class="username">foodieland</span>
-          <span class="location">New York, NY</span>
-        </div>
+    <!-- CARD 3 -->
+    <div class="recipe-card-v2 p-3 rounded-4">
+      <div class="recipe-image mx-auto mb-3 position-relative">
+        <img src="/src/assets/delicious3.png" alt="Pancake" class="img-fluid rounded-4" />
+        <button class="like-button" onclick="this.classList.toggle('active')">
+          <i class="bi bi-heart-fill"></i>
+        </button>
       </div>
-      <div class="insta-image">
-        <img src="/src/assets/insta3.png" alt="Instagram post 3" />
-      </div>
-      <div class="insta-footer">
-        <div class="insta-actions">❤️ 61,003</div>
-        <div class="insta-caption">
-          <strong>foodieland</strong> Vegan vibes only 🌱
+      <h3 class="recipe-title mb-3">Healthy Japanese Fried Rice with Asparagus</h3>
+      <div class="d-flex align-items-center gap-4 px-2 text-muted">
+        <div class="d-flex align-items-center gap-2">
+          <i class="bi bi-alarm"></i><span>30 Minutes</span>
         </div>
-        <div class="insta-date">June 20</div>
+        <div class="d-flex align-items-center gap-2">
+          <i class="fas fa-utensils"></i><span>Healthy</span>
+        </div>
       </div>
     </div>
 
-    <!-- Post 4 -->
-    <div class="instagram-card">
-      <div class="insta-header">
-        <div class="insta-profile-pic">
-          <img src="/src/assets/logo.png" alt="Instagram logo" />
-        </div>
-        <div class="insta-profile-info">
-          <span class="username">foodieland</span>
-          <span class="location">Paris, France</span>
-        </div>
+    <!-- CARD 4 -->
+    <div class="recipe-card-v2 p-3 rounded-4">
+      <div class="recipe-image mx-auto mb-3 position-relative">
+        <img src="/src/assets/delicious4.png" alt="Pancake" class="img-fluid rounded-4" />
+        <button class="like-button" onclick="this.classList.toggle('active')">
+          <i class="bi bi-heart-fill"></i>
+        </button>
       </div>
-      <div class="insta-image">
-        <img src="/src/assets/insta4.png" alt="Instagram post 4" />
-      </div>
-      <div class="insta-footer">
-        <div class="insta-actions">❤️ 39,827</div>
-        <div class="insta-caption">
-          <strong>foodieland</strong> Croissants & coffee 🥐☕
+      <h3 class="recipe-title mb-3">Cauliflower Walnut Vegetarian Taco Meat</h3>
+      <div class="d-flex align-items-center gap-4 px-2 text-muted">
+        <div class="d-flex align-items-center gap-2">
+          <i class="bi bi-alarm"></i><span>30 Minutes</span>
         </div>
-        <div class="insta-date">June 18</div>
+        <div class="d-flex align-items-center gap-2">
+          <i class="fas fa-utensils"></i><span>Eastern</span>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- BOUTON INSTAGRAM -->
-  <div class="text-center mt-5">
-    <a href="https://www.instagram.com/foodielandla/" target="_blank" class="btn-insta">
-  Visit Our Instagram
-  <i class="bi bi-instagram"></i>
-</a>
+    <!-- CARD 5 -->
+    <div class="recipe-card-v2 p-3 rounded-4">
+      <div class="recipe-image mx-auto mb-3 position-relative">
+        <img src="/src/assets/delicious5.png" alt="Beef Cheeseburger" class="img-fluid rounded-4" />
+        <button class="like-button" onclick="this.classList.toggle('active')">
+          <i class="bi bi-heart-fill"></i>
+        </button>
+      </div>
+      <h3 class="recipe-title mb-3">Rainbow Chicken Salad with Almond Honey</h3>
+      <div class="d-flex align-items-center gap-4 px-2 text-muted">
+        <div class="d-flex align-items-center gap-2">
+          <i class="bi bi-alarm"></i><span>30 Minutes</span>
+        </div>
+        <div class="d-flex align-items-center gap-2">
+          <i class="fas fa-utensils"></i><span>Healthy</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 6 -->
+    <div class="recipe-card-v2 p-3 rounded-4">
+      <div class="recipe-image mx-auto mb-3 position-relative">
+        <img src="/src/assets/delicious6.png" alt="Salmon" class="img-fluid rounded-4" />
+        <button class="like-button" onclick="this.classList.toggle('active')">
+          <i class="bi bi-heart-fill"></i>
+        </button>
+      </div>
+      <h3 class="recipe-title mb-3">Barbeque Spicy Sandwiches with Chips </h3>
+      <div class="d-flex align-items-center gap-4 px-2 text-muted">
+        <div class="d-flex align-items-center gap-2">
+          <i class="bi bi-alarm"></i><span>30 Minutes</span>
+        </div>
+        <div class="d-flex align-items-center gap-2">
+          <i class="fas fa-utensils"></i><span>Snack</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 7 -->
+    <div class="recipe-card-v2 p-3 rounded-4">
+      <div class="recipe-image mx-auto mb-3 position-relative">
+        <img src="/src/assets/delicious7.png" alt="Pancake" class="img-fluid rounded-4" />
+        <button class="like-button" onclick="this.classList.toggle('active')">
+          <i class="bi bi-heart-fill"></i>
+        </button>
+      </div>
+      <h3 class="recipe-title mb-3">Firecracker Vegan Lettuce Wraps - Spicy! </h3>
+      <div class="d-flex align-items-center gap-4 px-2 text-muted">
+        <div class="d-flex align-items-center gap-2">
+          <i class="bi bi-alarm"></i><span>30 Minutes</span>
+        </div>
+        <div class="d-flex align-items-center gap-2">
+          <i class="fas fa-utensils"></i><span>Seafood</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 8 -->
+    <div class="recipe-card-v2 p-3 rounded-4">
+      <div class="recipe-image mx-auto mb-3 position-relative">
+        <img src="/src/assets/delicious8.png" alt="Pancake" class="img-fluid rounded-4" />
+        <button class="like-button" onclick="this.classList.toggle('active')">
+          <i class="bi bi-heart-fill"></i>
+        </button>
+      </div>
+      <h3 class="recipe-title mb-3">Chicken Ramen Soup with Mushroom </h3>
+      <div class="d-flex align-items-center gap-4 px-2 text-muted">
+        <div class="d-flex align-items-center gap-2">
+          <i class="bi bi-alarm"></i><span>30 Minutes</span>
+        </div>
+        <div class="d-flex align-items-center gap-2">
+          <i class="fas fa-utensils"></i><span>Japanese</span>
+        </div>
+      </div>
+    </div>
 
   </div>
 </section>
-
 
     <script type="module" src="/src/js/main.js"></script>
   </body>
