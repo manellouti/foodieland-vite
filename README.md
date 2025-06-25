@@ -4,7 +4,7 @@
 
 ## 🎯 Objectif
 
-Créer un **site vitrine statique, responsive et moderne** pour valoriser des recettes culinaires, avec une interface utilisateur soignée, des animations légères, et un affichage fluide sur **desktop, tablette et mobile**.
+Créer un **site vitrine fictif statique, responsive et moderne** pour valoriser des recettes culinaires, avec une interface utilisateur soignée, des animations légères, et un affichage fluide sur **desktop, tablette et mobile**.
 
 ---
 
