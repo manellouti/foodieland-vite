@@ -709,3 +709,398 @@ body {
     justify-content: center;
   }
 }
+
+@media (max-width: 767.98px) {
+  /* Image au-dessus, texte en dessous */
+  .recipe-highlight .row {
+    flex-direction: column;
+  }
+
+  .recipe-highlight .col-md-6 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Image mobile : évite qu'elle soit écrasée */
+  .recipe-highlight img {
+    height: auto !important;
+    max-height: 250px;
+    border-radius: 1rem 1rem 0 0 !important;
+  }
+
+  /* Padding plus doux */
+  .recipe-highlight .p-5 {
+    padding: 1.5rem !important;
+  }
+
+  /* Boutons adaptatifs */
+  .recipe-highlight .d-flex.gap-3 {
+    flex-wrap: wrap;
+  }
+
+  /* Auteur + bouton en colonne */
+  .recipe-highlight .d-flex.justify-content-between {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start !important;
+  }
+
+  /* Centrage éventuel du bouton en mobile */
+  .recipe-highlight .btn.btn-dark {
+    align-self: stretch;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* Header en colonne (titre au-dessus du bouton) */
+  .categories-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Cartes en grille adaptative */
+  .categories-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  /* Cartes elles-mêmes */
+  .category-card {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: #f8f8f8;
+  }
+
+  /* Images dans les cartes */
+  .category-card img {
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Texte sous les images */
+  .category-card p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  /* Bouton "View All" responsive */
+  .view-all-btn {
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 14px;
+    align-self: stretch;
+  }
+}
+
+/* Mobile : 1 carte par ligne */
+@media (max-width: 575.98px) {
+  .recipes-grid {
+    display: grid !important;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .recipe-card {
+    width: 100%;
+  }
+}
+
+/* Tablette : 2 cartes par ligne */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .recipes-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .recipe-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .promo-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .promo-image-container {
+    display: none !important;
+  }
+
+  .promo-text {
+    padding: 0 1.5rem;
+  }
+
+  .promo-text h2 {
+    font-size: 1.75rem;
+    line-height: 1.4;
+  }
+
+  .promo-text p {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .learn-more-btn {
+    width: 100%;
+    max-width: 250px;
+    margin-top: 1rem;
+  }
+}
+
+/* Mobile : 1 carte par ligne */
+@media (max-width: 575.98px) {
+  .instagram-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .instagram-card {
+    width: 100%;
+  }
+
+  .instagram-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .instagram-header p {
+    font-size: 14px;
+    padding: 0 1rem;
+  }
+
+  .btn-insta {
+    width: 100%;
+    max-width: 260px;
+    font-size: 14px;
+  }
+}
+
+/* Tablette : 2 cartes par ligne */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .instagram-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .instagram-card {
+    width: 100%;
+  }
+
+  .instagram-header h2 {
+    font-size: 2rem;
+  }
+
+  .instagram-header p {
+    font-size: 15px;
+    padding: 0 2rem;
+  }
+
+  .btn-insta {
+    max-width: 300px;
+    font-size: 15px;
+  }
+}
+
+/* Mobile : 1 carte par ligne */
+@media (max-width: 575.98px) {
+  .recipes-grid-v2 {
+    display: grid !important;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .recipe-card-v2 {
+    width: 100%;
+  }
+
+  .recipes-title-v2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .recipes-desc-v2 {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 1rem;
+  }
+}
+
+/* Tablette : 2 cartes par ligne */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .recipes-grid-v2 {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .recipe-card-v2 {
+    width: 100%;
+  }
+
+  .recipes-title-v2 {
+    font-size: 2rem;
+  }
+
+  .recipes-desc-v2 {
+    font-size: 15px;
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .decor-fruits,
+  .decor-salad {
+    display: none !important;
+  }
+
+  .subscribe-section {
+    padding: 2rem 1rem !important;
+    overflow-x: hidden;
+  }
+
+  .subscribe-box {
+    max-width: 100%;
+    width: 100%;
+    padding: 1rem 0.5rem;
+    box-sizing: border-box;
+  }
+
+  .subscribe-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .subscribe-text {
+    font-size: 13px;
+    margin-bottom: 1.2rem;
+    padding: 0 0.5rem;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .subscribe-form input.email-input {
+    width: 90%;
+    max-width: 260px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+
+  .subscribe-form .subscribe-btn {
+    width: 90%;
+    max-width: 260px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+}
+
+
+
+/* Tablette */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .decor-fruits,
+  .decor-salad {
+    display: none !important;
+  }
+
+  .subscribe-box {
+    padding: 3rem 2rem;
+  }
+
+  .subscribe-title {
+    font-size: 2rem;
+  }
+
+  .subscribe-text {
+    font-size: 15px;
+    margin-bottom: 1.5rem;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .email-input,
+  .subscribe-btn {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .footer {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .footer .container {
+    flex-direction: column;
+    align-items: center !important;
+    gap: 1rem;
+  }
+
+  .footer-brand {
+    width: 100%;
+  }
+
+  .footer-brand .logo {
+    justify-content: center;
+  }
+
+  .footer-brand p {
+    margin: 0 auto;
+    max-width: 300px;
+    font-size: 14px;
+  }
+
+  .footer-nav {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 0;
+    margin: 1rem 0;
+  }
+
+  .footer-nav .nav-link {
+    font-size: 15px;
+    padding: 0;
+  }
+
+  .footer-divider {
+    margin: 1.5rem 0;
+    width: 100%;
+  }
+
+  .footer .text-muted {
+    font-size: 13px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer .social-icons {
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
