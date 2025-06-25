@@ -653,3 +653,45 @@ body {
   z-index: 0;
   transform: translate(70px, 80px);
 }
+
+.footer {
+  background-color: #fff;
+  color: #242A2C;
+  font-size: 16px;
+
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #666;
+  max-width: 300px;
+}
+
+.footer-nav .nav-link {
+  color: #242A2C;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav .nav-link:hover {
+  color: #FF642F;
+  text-decoration: none;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 3px solid #E6E6E6;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.social-icons i {
+  font-size: 18px;
+  color: #242A2C;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #FF642F;
+}
